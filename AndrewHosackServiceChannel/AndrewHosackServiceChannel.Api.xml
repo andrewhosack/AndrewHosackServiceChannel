@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AndrewHosackServiceChannel.Api</name>
+    </assembly>
+    <members>
+        <member name="M:CovidCasesController.GetCovidCasesCSV(System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.String)">
+            <summary>
+             Collect important statistics for either a County or State in the United States.
+            </summary>
+            <param name="startDate">Start Date of your Data Extract.</param>
+            <param name="endDate">End Date of your Data Extract.</param>
+            <param name="location">The County or State used for the Data Extraction.</param>
+        </member>
+        <member name="M:CovidCasesController.GetDailyCovidCasesCSV(System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.String)">
+            <summary>
+             Collect important daily statistics for either a County or State in the United States.
+            </summary>
+            <param name="startDate">Start Date of your Data Extract.</param>
+            <param name="endDate">End Date of your Data Extract.</param>
+            <param name="location">The County or State used for the Data Extraction.</param>
+        </member>
+        <member name="M:CovidCasesController.GetCovidCasesGrowthCSV(System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.String)">
+            <summary>
+             Collect growth rate statistics for either a County or State in the United States.
+            </summary>
+            <param name="startDate">Start Date of your Data Extract.</param>
+            <param name="endDate">End Date of your Data Extract.</param>
+            <param name="location">The County or State used for the Data Extraction.</param>
+        </member>
+    </members>
+</doc>
